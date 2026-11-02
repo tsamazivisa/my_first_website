@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >  
+    <h2>What javascript can do</h2> 
+    <p name= "demo"> Mazivisa the master</p>
+    <button onclick="document.getElementsByName('demo').innerHTML='Mazivisa'">click</button>
+</body>
+<script>
+    //alert("TODAY IS NHASI")
+    //document.write("TODAY IS NHASI")<'br>'
+var num1,num2,sum,diff,prod,mod num1=parseFloat(prompt("Enter first number")) 
+num2 =parseInt(prompt('"Enter second number'))
+sum=num1+num2
+diff=num1-num2
+prod=num1*num2
+mod=num1%num2
+
+document.write("The sum of  " +num1+ "+" +num2+ "="  +sum+ '<br>')
+document.write("The diff of  " +num1+ "-" +num2+ "="  +diff+ '<br>')
+document.write("The prod of  " +num1+ "*" +num2+ "="  +prod+ '<br>')
+document.write("The mod of  " +num1+ "%" +num2+ "="  +mod+ '<br>')
+
+</script>
